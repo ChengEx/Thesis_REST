@@ -20,4 +20,4 @@ mongoose.connect(process.env.mongoDB,{ useNewUrlParser:true },()=>{
 server.get('/',(req,res)=>{
     res.send('home');
 })
-server.listen(3000);
+server.listen(5000);
